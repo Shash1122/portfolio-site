@@ -1,0 +1,134 @@
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank CR</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper"> 
+                    <img id="profile-pic" src="{% static 'images/shashank.jpg' %}">
+                    <br>
+                    <h4>Hi I'm Shashank!</h4>
+                    <p>I love coding, music and Collaborating</p>
+                <a class="btn btn-outline-primary btn-block mt-3 h-100" href="{% static 'files/resume.pdf' %}" download>
+                📄 Download My Resume
+            </a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>My Experience as a Developer</h4>
+                    <hr>
+                    <p>
+                    I’m a backend developer experienced in building secure, scalable web applications using Python, Django and Flask.
+                    I have developed RESTful APIs, handled authentication, and built full-stack applications with real-world use cases.
+                    </p>
+
+                    <p>
+                    I’ve built and deployed full-stack applications, including authentication systems, CRUD APIs, and interactive dashboards — both independently and as part of academic and personal projects.
+                    </p>
+
+                    <p>
+                    I’m committed to continuous learning and currently strengthening my expertise in advanced Django features, API design, and system optimization.
+                    </p>
+                    
+                    <ul class="social-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/shashank-cr-7288372a6" target="_blank">
+                        <img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Shash1122" target="_blank">
+                        <img class="social" src="{% static 'images/github.png' %}" alt="GitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/share/1GKybfMtz2/" target="_blank">
+                        <img class="social" src="{% static 'images/facebook.png' %}" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/shash_4nk?igsh=MWc5cDZ1NWxtdnJpeg==" target="_blank">
+                        <img class="social" src="{% static 'images/instagram.png' %}" alt="Instagram">
+                        </a>
+                        
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+             <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Building Real-World Systems</h5>
+                    <hr>
+                    <p>
+                        One of my most impactful projects is <strong>UTA Enrolment</strong> — a Flask-based web application that manages secure user authentication, course enrolment, and admin/user dashboards.
+                    </p>
+                    <p>
+                        It features CSRF protection, session-based login, pin code validation, and RESTful APIs for CRUD operations. This project helped me master real-world backend challenges including error handling, security, and database integration.
+                    </p>
+                </div>
+             </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Skills That Drive My Code</h5>
+                    <hr>
+                    <p>
+                    I work primarily with Python and JavaScript, leveraging frameworks like Django, Flask, and React to build full-stack applications with clean, scalable architecture.
+                    </p>
+                    <p>
+                    My toolkit also includes MongoDB, MySQL, Git, and Postman — all essential to my backend workflows. I stay up to date with secure coding standards and enjoy learning emerging tools that improve development speed and reliability.
+                    </p>
+                </div>
+        </div>
+</div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Approach Learning</h5>
+                    <hr>
+                    <p>
+                    I believe in learning by building. I dive into real-world projects that challenge me to apply new concepts hands-on, rather than just reading theory.
+                    </p>
+                    <p>
+                    Whether it’s implementing authentication from scratch or integrating APIs, I experiment, debug, and explore until I understand how everything fits together. For me, failure is just a step toward deeper understanding.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What's Next for Me</h5>
+                    <hr>
+                    <p>
+                    I’m focused on strengthening my backend development skills, contributing to impactful projects, and continuing to build production-ready systems using Django, Flask, and modern APIs.
+                    </p>
+                    <p>
+                    In the short term, I aim to join a collaborative development team where I can apply my skills, learn from experienced engineers, and take on challenges that push my technical boundaries.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        
+        <br>
+    </div>
+</body>
+</html>
