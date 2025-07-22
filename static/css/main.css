@@ -1,9 +1,9 @@
-body{
-	background-color:#F8F8F8!important;
+/* Light background for entire page */
+body {
+  background-color: #F8F8F8 !important;
 }
 
-
-
+/* Profile card styling */
 #profile-wrapper {
   padding: 20px;
   text-align: center;
@@ -16,28 +16,25 @@ body{
   border-radius: 50%;
 }
 
+/* Contact section icons */
 .social {
-  width: 24px;
+  width: 40px;
+  height: 40px;
   margin: 5px;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.btn-sm {
-  font-size: 0.85rem;
-  padding: 5px 10px;
+.social:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
 }
 
-ul{
-    padding:0;
-    list-style-type: none;
+.hover-shadow:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease;
 }
 
-.social-links ul, li{
-    list-style-type:none;
-    display:inline-block;
+.project-img {
+  height: 180px;
+  object-fit: cover;
 }
-
-.social{
-    width:20px;
-    height:20px;
-}
-
